@@ -39,7 +39,7 @@ in pkgs.mkShell rec {
   postVenvCreation = ''
     unset SOURCE_DATE_EPOCH
     
-    python -m ipykernel install --user --name=myenv4 --display-name="myenv4"
+    python -m ipykernel install --user --name=numpy-env --display-name="numpy-env"
     pip install -r requirements.txt
   '';
 
