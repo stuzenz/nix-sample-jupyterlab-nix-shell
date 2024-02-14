@@ -1,0 +1,24 @@
+# you can add libraries you want to install here - this is an example
+# of a python library (moment) that I didn't find as part of nixos 
+# pkgs. Sometimes they exist in both - you could keep it more 
+# pythonic and use the requirements.txt (vs what I have done 
+# above with xlswriter, pandas etc.)
+xlsxwriter
+matplotlib
+moment
+ipykernel
+jupyterlab
+XlsxWriter
+beautifulsoup4
+openai
+pyotp
+qrcode
+
+
+pyzmq
+venvShellHook
+pip
+numpy
+pandas
+requests
+
